@@ -1,4 +1,4 @@
-# Tech Challenge Fase 3 - Fine-tuning com AmazonTitles-1.3MM
+# Tech Challenge Fase 3 - Fine-tuning com Amazon Titles
 
 ## 📖 Descrição do Projeto
 
