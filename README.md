@@ -1,10 +1,10 @@
 # Tech Challenge Fase 3 - Fine-tuning com Amazon Titles
 
-## 📖 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto foi desenvolvido como parte do **Tech Challenge da Fase 3** do curso de IA para Devs da FIAP. O objetivo é realizar o fine-tuning de um foundation model utilizando o dataset AmazonTitles-1.3MM, criando um sistema capaz de gerar descrições detalhadas de produtos a partir de seus títulos.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Executar fine-tuning do modelo **LLaMA-3 8B** quantizado em 4 bits
 - Utilizar o dataset **AmazonTitles-1.3MM** (arquivo `trn.json`)
@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte do **Tech Challenge da Fase 3** do curs
 - Criar sistema de inferência para responder perguntas sobre produtos
 - Comparar performance antes e depois do fine-tuning
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.10+**
 - **PyTorch**
@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como parte do **Tech Challenge da Fase 3** do curs
 - **TRL** - Treinamento supervisionado
 - **Google Colab** - Ambiente de desenvolvimento
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 tech-challenge-fine-tuning/
@@ -33,20 +33,16 @@ tech-challenge-fine-tuning/
 ├── data/
 │   ├── trn.json                             # Dataset original
 │   └── data.json                            # Dataset formatado
-│
-├── models/
 │   └── lora_data/                           # Modelo fine-tunado
 │       ├── adapter_config.json
 │       ├── adapter_model.safetensors
 │       └── tokenizer files...
 │
-├── outputs/                                 # Logs de treinamento
 │
-├── README.md                                # Este arquivo
-└── requirements.txt                         # Dependências
+├── README.md                                # Este                      
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 ### 1. Configuração do Ambiente
 
@@ -71,11 +67,12 @@ drive.mount('/content/drive')
 
 ### 3. Execução do Notebook
 
-1. Abra o arquivo `tech_challenge_fine_tunning.ipynb` no Google Colab
+1. Abra o arquivo `tech_challenge_fine_t
+unning.ipynb` no Google Colab
 2. Execute todas as células sequencialmente
 3. Aguarde o processo de fine-tuning (aproximadamente 30-60 minutos)
 
-## 📊 Processo de Fine-tuning
+## Processo de Fine-tuning
 
 ### Pré-processamento dos Dados
 
@@ -121,7 +118,7 @@ TrainingArguments(
 )
 ```
 
-## 🧪 Testes e Validação
+## Testes e Validação
 
 ### Exemplo de Uso
 
@@ -154,7 +151,7 @@ O notebook inclui testes comparativos mostrando:
 - **Modelo Base:** Respostas genéricas e pouco específicas
 - **Modelo Fine-tunado:** Descrições detalhadas e contextualizadas
 
-## 📈 Resultados
+## Resultados
 
 ### Melhorias Observadas
 
@@ -170,7 +167,7 @@ O notebook inclui testes comparativos mostrando:
 - **Parâmetros treináveis:** ~4.2M (LoRA)
 - **Dataset utilizado:** 1M exemplos formatados
 
-## 🎥 Demonstração
+## Demonstração
 
 O projeto inclui uma demonstração em vídeo mostrando:
 
@@ -180,9 +177,9 @@ O projeto inclui uma demonstração em vídeo mostrando:
 4. **Testes interativos**
 5. **Resultados finais**
 
-**🔗 Link do vídeo:** [Inserir link do YouTube]
+**Link do vídeo:** [https://youtu.be/EIicNuvhIPI?si=042in8hE05zbd_hX]
 
-## 📋 Requisitos Técnicos
+## Requisitos Técnicos
 
 ### Hardware Recomendado
 
@@ -205,7 +202,7 @@ bitsandbytes>=0.41.0
 xformers
 ```
 
-## ⚙️ Configurações Avançadas
+## Configurações Avançadas
 
 ### Otimizações de Memória
 
@@ -228,7 +225,7 @@ learning_rate = 1e-4
 max_steps = 200
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Problemas Comuns
 
@@ -244,17 +241,17 @@ max_steps = 200
    - Verifique conexão com internet
    - Reinicie o runtime do Colab
 
-## 👥 Equipe
+## Equipe
 
 - **Bruno Lima da Cruz**
 - **Matheus Braz Giudice dos Santos**
 - **Mislene Dalila da Silva**
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins educacionais como parte do Tech Challenge da FIAP.
 
-## 🔗 Links Úteis
+## Links Úteis
 
 - **Dataset:** [AmazonTitles-1.3MM](https://drive.google.com/file/d/12zH4mL2RX8iSvH0VCNnd3QxO4DzuHWnK/view)
 - **Unsloth:** [GitHub](https://github.com/unslothai/unsloth)
@@ -264,4 +261,4 @@ Este projeto foi desenvolvido para fins educacionais como parte do Tech Challeng
 
 ---
 
-**🏆 Tech Challenge Fase 3 - IA para Devs - FIAP**
+**Tech Challenge Fase 3 - IA para Devs - FIAP**
